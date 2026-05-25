@@ -1,31 +1,28 @@
 import json
+import sys
 from pathlib import Path
 
-BASE_DIR = Path(__file__).resolve().parents[1]
-INPUT_JSON = BASE_DIR / "input" / "episode.json"
-PROMPT_DIR = BASE_DIR / "assets" / "prompts"
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from paths import get_paths
 
-PROMPT_DIR.mkdir(parents=True, exist_ok=True)
+paths = get_paths()
+input_json = paths["INPUT_JSON"]
 
-with open(INPUT_JSON, "r", encoding="utf-8") as f:
+with open(input_json, "r", encoding="utf-8") as f:
     data = json.load(f)
 
 scenes = data.get("scenes", [])
-
 if not scenes:
     raise ValueError("episode.json に scenes が見つかりません")
 
-for i, scene in enumerate(scenes, start=1):
+print(f"\n{'='*60}")
+print(f"  {data.get('title', '')}  画像生成プロンプト")
+print(f"{'='*60}\n")
+
+for scene in scenes:
+    n = scene["scene"]
+    role = scene.get("role", "")
     prompt = scene.get("image_prompt", "")
-    if not prompt:
-        print(f"scene{i}: image_prompt が空です")
-        continue
-
-    output_path = PROMPT_DIR / f"scene{i}_prompt.txt"
-
-    with open(output_path, "w", encoding="utf-8") as f:
-        f.write(prompt)
-
-    print(f"作成しました: {output_path}")
-
-print("画像プロンプトの抽出が完了しました。")
+    print(f"--- Scene {n}：{role} ---")
+    print(prompt)
+    print()
