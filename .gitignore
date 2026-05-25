@@ -35,3 +35,5 @@ Thumbs.db
 _cache/
 shared/
 *.txt
+
+.claude/
