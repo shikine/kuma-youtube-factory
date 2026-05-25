@@ -31,3 +31,7 @@ venv/
 # OS
 .DS_Store
 Thumbs.db
+
+_cache/
+shared/
+*.txt
