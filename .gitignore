@@ -1,0 +1,33 @@
+# credentials
+token.json
+client_secret.json
+.env
+*.key
+*.secret
+
+# generated episodes
+episodes/
+output/
+analytics/raw/
+analytics/reports/
+
+# media files
+*.mp4
+*.mov
+*.avi
+*.wav
+*.mp3
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
