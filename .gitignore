@@ -5,8 +5,9 @@ client_secret.json
 *.key
 *.secret
 
-# generated episodes
-episodes/
+# generated episodes (media/output only)
+episodes/**/assets/
+episodes/**/output/
 output/
 analytics/raw/
 analytics/reports/

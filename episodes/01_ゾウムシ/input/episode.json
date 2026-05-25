@@ -1,0 +1,60 @@
+{
+  "title": "ゾウムシのはなはなんであんなに長いの？",
+  "thumbnail_text": "ゾウムシのはなが長いひみつ！",
+  "description": "クマ博士が森でゾウムシを発見！あのふしぎな長い鼻には、すごい理由があったんだって。子どもたちといっしょに、森のちいさなひみつをのぞいてみよう！",
+  "hashtags": [
+    "#クマ博士",
+    "#森のいきもの研究所",
+    "#ゾウムシ",
+    "#むしのひみつ",
+    "#幼児向け",
+    "#知育",
+    "#YouTubeShorts"
+  ],
+  "bgm_mood": "明るくかわいい、森の冒険ふう",
+  "theme": "ゾウムシの鼻が長い理由",
+  "episode_id": "01",
+  "folder_name": "01_ゾウムシ",
+  "scenes": [
+    {
+      "scene": 1,
+      "duration": 8,
+      "role": "びっくり導入",
+      "narration": "クマ博士が葉っぱの上にへんなむしを見つけたよ！",
+      "dialogue": "わあっ！このむし、はながながーい！なんでだろ〜？",
+      "image_prompt": "cute pixel picture book style, for toddlers, brown bear cub Doctor Kuma / Kuma Hakase, round glasses, white lab coat, green backpack, magnifying glass, bright forest, gentle atmosphere, YouTube Shorts vertical composition, no text, no letters, no speech bubble, no watermark, Kuma Hakase looking surprised at a tiny weevil on a green leaf, the weevil has a very long snout, sunlight filtering through trees, cheerful forest background",
+      "sound_effect": "びっくり音（ポヨン）",
+      "capcut_instruction": "ズームイン演出でゾウムシの鼻にフォーカス。テキスト：「なんでだろ〜？」をポップに表示"
+    },
+    {
+      "scene": 2,
+      "duration": 10,
+      "role": "調査",
+      "narration": "クマ博士、虫メガネでよ〜く調べてみるよ！",
+      "dialogue": "しらべてみよう！このながいはな、ドリルみたいにグリグリできるんだって！",
+      "image_prompt": "cute pixel picture book style, for toddlers, brown bear cub Doctor Kuma / Kuma Hakase, round glasses, white lab coat, green backpack, magnifying glass, bright forest, gentle atmosphere, YouTube Shorts vertical composition, no text, no letters, no speech bubble, no watermark, Kuma Hakase holding a magnifying glass close to a weevil, examining the long snout carefully, curious expression, close-up of weevil on leaf, soft green forest background",
+      "sound_effect": "調査音（キラキラ）",
+      "capcut_instruction": "虫メガネのルーペ演出で拡大アニメーション。BGMのテンポを少し上げる"
+    },
+    {
+      "scene": 3,
+      "duration": 12,
+      "role": "やさしい解説",
+      "narration": "ゾウムシのながいはなは、どんぐりに穴をあけるためなんだって！",
+      "dialogue": "ながいはなで「グリグリ〜」ってあなをあけて、そこにたまごをうむんだよ。あかちゃんがあんぜんにそだてるひみつなんだ！",
+      "image_prompt": "cute pixel picture book style, for toddlers, brown bear cub Doctor Kuma / Kuma Hakase, round glasses, white lab coat, green backpack, magnifying glass, bright forest, gentle atmosphere, YouTube Shorts vertical composition, no text, no letters, no speech bubble, no watermark, Kuma Hakase smiling and pointing at an acorn with a small hole, a cute illustrated weevil drilling its snout into the acorn, warm sunlight, friendly and educational scene",
+      "sound_effect": "ほっこり音（ポポン）",
+      "capcut_instruction": "どんぐりに穴があく可愛いアニメーションを挿入。テキスト：「たまごをまもるため！」を表示"
+    },
+    {
+      "scene": 4,
+      "duration": 10,
+      "role": "リアクション＋締め",
+      "narration": "ながいはなには、かわいいひみつがかくれてたんだね！",
+      "dialogue": "ゾウムシさん、すごいね〜！森にはひみつがいっぱい！またしらべにくるよ〜！",
+      "image_prompt": "cute pixel picture book style, for toddlers, brown bear cub Doctor Kuma / Kuma Hakase, round glasses, white lab coat, green backpack, magnifying glass, bright forest, gentle atmosphere, YouTube Shorts vertical composition, no text, no letters, no speech bubble, no watermark, Kuma Hakase waving goodbye cheerfully with a big smile, a cute tiny weevil waving back on a leaf, sparkling magical forest background, warm and happy ending scene",
+      "sound_effect": "終了ジングル（ほっこりメロディー）",
+      "capcut_instruction": "キラキラエフェクトで締め。テキスト：「森にはひみつがいっぱい！」をかわいいフォントで表示。フェードアウト"
+    }
+  ]
+}
