@@ -1,0 +1,117 @@
+import io
+import sys
+from pathlib import Path
+
+from googleapiclient.discovery import build
+from googleapiclient.http import MediaIoBaseDownload
+from google_auth_oauthlib.flow import InstalledAppFlow
+from google.oauth2.credentials import Credentials
+from google.auth.transport.requests import Request
+from PIL import Image
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from paths import get_paths
+
+SCOPES = ["https://www.googleapis.com/auth/drive.readonly"]
+IMAGE_MIMETYPES = {"image/png", "image/jpeg", "image/webp"}
+
+ROOT_DIR = Path(__file__).resolve().parents[1]
+CLIENT_SECRET_FILE = ROOT_DIR / "client_secret.json"
+TOKEN_FILE = ROOT_DIR / "drive_token.json"
+ENV_FILE = ROOT_DIR / ".env"
+
+
+def load_env():
+    if not ENV_FILE.exists():
+        return {}
+    env = {}
+    for line in ENV_FILE.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if line and not line.startswith("#") and "=" in line:
+            k, _, v = line.partition("=")
+            env[k.strip()] = v.strip()
+    return env
+
+
+def get_drive_service():
+    creds = None
+    if TOKEN_FILE.exists():
+        creds = Credentials.from_authorized_user_file(str(TOKEN_FILE), SCOPES)
+    if not creds or not creds.valid:
+        if creds and creds.expired and creds.refresh_token:
+            creds.refresh(Request())
+        else:
+            flow = InstalledAppFlow.from_client_secrets_file(
+                str(CLIENT_SECRET_FILE), SCOPES
+            )
+            creds = flow.run_local_server(port=0)
+        TOKEN_FILE.write_text(creds.to_json(), encoding="utf-8")
+    return build("drive", "v3", credentials=creds)
+
+
+def download_images(service, folder_id, image_dir):
+    image_dir.mkdir(parents=True, exist_ok=True)
+
+    results = service.files().list(
+        q=f"'{folder_id}' in parents and trashed=false",
+        fields="files(id, name, mimeType)",
+        orderBy="name"
+    ).execute()
+
+    files = [
+        f for f in results.get("files", [])
+        if f["mimeType"] in IMAGE_MIMETYPES
+    ]
+
+    if len(files) < 4:
+        raise RuntimeError(
+            f"Drive フォルダに画像が4枚必要です。現在 {len(files)} 枚: "
+            f"{[f['name'] for f in files]}"
+        )
+
+    if len(files) > 4:
+        print(f"画像が {len(files)} 枚あります。名前順で4枚使います。")
+
+    for i, file in enumerate(files[:4], start=1):
+        dst = image_dir / f"scene{i}.png"
+        print(f"  {file['name']} -> scene{i}.png")
+
+        request = service.files().get_media(fileId=file["id"])
+        buf = io.BytesIO()
+        downloader = MediaIoBaseDownload(buf, request)
+        done = False
+        while not done:
+            _, done = downloader.next_chunk()
+
+        buf.seek(0)
+        with Image.open(buf) as img:
+            img.convert("RGB").save(dst, "PNG")
+
+    print(f"\nダウンロード完了: {image_dir}")
+
+
+def main():
+    env = load_env()
+    folder_id = env.get("DRIVE_IMAGE_FOLDER_ID", "").strip()
+
+    if not folder_id:
+        raise RuntimeError(
+            "DRIVE_IMAGE_FOLDER_ID が .env に設定されていません。\n"
+            ".env に以下を追加してください:\n"
+            "DRIVE_IMAGE_FOLDER_ID=<DriveフォルダのID>"
+        )
+
+    if not CLIENT_SECRET_FILE.exists():
+        raise FileNotFoundError(
+            f"client_secret.json がありません: {CLIENT_SECRET_FILE}"
+        )
+
+    paths = get_paths()
+    image_dir = paths["IMAGE_DIR"]
+
+    service = get_drive_service()
+    download_images(service, folder_id, image_dir)
+
+
+if __name__ == "__main__":
+    main()
