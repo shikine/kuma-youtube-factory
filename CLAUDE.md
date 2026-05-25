@@ -232,6 +232,8 @@ episode.json は必ず以下の形式にする。
 
 &#x20; "folder\_name": "",
 
+&#x20; "drive\_folder\_id": "",
+
 &#x20; "scenes": \[
 
 &#x20;   {

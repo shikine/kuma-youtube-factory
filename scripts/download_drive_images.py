@@ -91,23 +91,30 @@ def download_images(service, folder_id, image_dir):
 
 
 def main():
-    env = load_env()
-    folder_id = env.get("DRIVE_IMAGE_FOLDER_ID", "").strip()
+    import json
+
+    paths = get_paths()
+    image_dir = paths["IMAGE_DIR"]
+
+    # episode.json の drive_folder_id を優先、なければ .env の DRIVE_IMAGE_FOLDER_ID を使う
+    episode_data = json.loads(paths["INPUT_JSON"].read_text(encoding="utf-8"))
+    folder_id = episode_data.get("drive_folder_id", "").strip()
+
+    if not folder_id:
+        env = load_env()
+        folder_id = env.get("DRIVE_IMAGE_FOLDER_ID", "").strip()
 
     if not folder_id:
         raise RuntimeError(
-            "DRIVE_IMAGE_FOLDER_ID が .env に設定されていません。\n"
-            ".env に以下を追加してください:\n"
-            "DRIVE_IMAGE_FOLDER_ID=<DriveフォルダのID>"
+            "Drive フォルダIDが見つかりません。\n"
+            "episode.json に drive_folder_id を追加するか、\n"
+            ".env に DRIVE_IMAGE_FOLDER_ID=<ID> を設定してください。"
         )
 
     if not CLIENT_SECRET_FILE.exists():
         raise FileNotFoundError(
             f"client_secret.json がありません: {CLIENT_SECRET_FILE}"
         )
-
-    paths = get_paths()
-    image_dir = paths["IMAGE_DIR"]
 
     service = get_drive_service()
     download_images(service, folder_id, image_dir)
