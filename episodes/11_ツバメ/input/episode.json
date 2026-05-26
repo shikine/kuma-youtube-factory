@@ -1,0 +1,53 @@
+{
+  "title": "ツバメはなんで人の家に巣を作るの？",
+  "thumbnail_text": "ツバメのひみつ！",
+  "description": "クマ博士が、ツバメが人の家に巣を作るふしぎなひみつを調べるよ！なんでおうちに来るのかな？いっしょに考えてみよう！",
+  "hashtags": ["#クマ博士", "#ツバメ", "#幼児向け", "#知育", "#YouTubeShorts", "#森のいきもの研究所"],
+  "bgm_mood": "あかるくほんわか、やさしいピアノとグロッケンシュピール",
+  "theme": "ツバメが人の家に巣を作る理由",
+  "episode_id": "11",
+  "folder_name": "11_ツバメ",
+  "drive_folder_id": "",
+  "scenes": [
+    {
+      "scene": 1,
+      "duration": 8,
+      "role": "びっくり導入",
+      "narration": "クマ博士がおうちの玄関を歩いていると、頭のうえになにかがある！",
+      "dialogue": "あれ？なんかいる！…つ、つばめだ〜！なんでここに巣があるの〜！？",
+      "image_prompt": "cute pixel picture book style, for toddlers, brown bear cub Doctor Kuma / Kuma Hakase, round glasses, white lab coat, green backpack, magnifying glass, standing under the eave of a cozy house, looking up in surprise at a swallow nest with baby birds, bright background, gentle atmosphere, YouTube Shorts vertical composition, no text, no letters, no speech bubble, no watermark",
+      "sound_effect": "びっくりした効果音（ポヨン）、ツバメのさえずり",
+      "capcut_instruction": "scene1.pngを全画面表示。クマ博士を下から上へズームイン。ツバメのさえずりSEを重ねる。"
+    },
+    {
+      "scene": 2,
+      "duration": 10,
+      "role": "調査",
+      "narration": "クマ博士は虫メガネでじっくり巣を調べてみた。",
+      "dialogue": "うーん、しらべてみよう！ツバメはね、なわばりを守ってくれるひとのそばに巣を作るんだって！",
+      "image_prompt": "cute pixel picture book style, for toddlers, brown bear cub Doctor Kuma / Kuma Hakase, round glasses, white lab coat, green backpack, magnifying glass held up to eye, carefully examining a mud swallow nest under a wooden eave, close-up view of the nest with straw and mud, bright gentle lighting, YouTube Shorts vertical composition, no text, no letters, no speech bubble, no watermark",
+      "sound_effect": "虫メガネを取り出すシュッという音、ノートにメモする音",
+      "capcut_instruction": "scene2.pngをゆっくりパンアップ。調査中BGMを小さく流す。"
+    },
+    {
+      "scene": 3,
+      "duration": 12,
+      "role": "やさしい解説",
+      "narration": "人の家の軒下は、ツバメにとってとても安全な場所。ネコやカラスが近づきにくいんだって。",
+      "dialogue": "ひとのそばは、てきがこわくてこられないんだって！だからツバメはわざと人のおうちをえらぶんだよ〜！",
+      "image_prompt": "cute pixel picture book style, for toddlers, brown bear cub Doctor Kuma / Kuma Hakase, round glasses, white lab coat, green backpack, pointing at a diagram drawn on a tiny chalkboard showing a house eave with a swallow nest and a big X over a cartoon crow, friendly and educational, bright forest clearing background, gentle atmosphere, YouTube Shorts vertical composition, no text, no letters, no speech bubble, no watermark",
+      "sound_effect": "ほわほわした解説BGM、チョークでかく音",
+      "capcut_instruction": "scene3.pngを中央固定。チョーク音SEのタイミングで図をフェードイン演出。"
+    },
+    {
+      "scene": 4,
+      "duration": 10,
+      "role": "リアクション＋締め",
+      "narration": "ツバメと人は、むかしからずっとなかよしなんだね！",
+      "dialogue": "ツバメはひとのことをしんらいしてるんだね〜！なんかうれしいなあ！森にはひみつがいっぱい！",
+      "image_prompt": "cute pixel picture book style, for toddlers, brown bear cub Doctor Kuma / Kuma Hakase, round glasses, white lab coat, green backpack, waving happily at a pair of swallows flying in a blue sky, baby swallows peeking out from a cozy nest under house eaves, warm sunny day, bright forest background, gentle cheerful atmosphere, YouTube Shorts vertical composition, no text, no letters, no speech bubble, no watermark",
+      "sound_effect": "ツバメのさえずり、明るいジングル（締め）",
+      "capcut_instruction": "scene4.pngをズームアウト。ツバメが飛ぶアニメーション演出。BGMをフェードアウト。エンドカード表示。"
+    }
+  ]
+}
