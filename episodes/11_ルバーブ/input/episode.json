@@ -1,0 +1,53 @@
+{
+  "title": "ルバーブはなんで紫色なの？くきがすっぱいひみつ！",
+  "thumbnail_text": "むらさきのくきが すっぱい!?",
+  "description": "くまはかせが、むらさきいろのふしぎなしょくぶつ「ルバーブ」をはっけん！なんで紫色なの？なんでくきがすっぱいの？やさしくおしえるよ！",
+  "hashtags": ["#ルバーブ", "#しょくぶつ", "#くまはかせ", "#ふしぎ", "#幼児向け", "#YouTubeShorts", "#森のくま博士"],
+  "bgm_mood": "ふしぎでかわいい、ほんわかテンポ",
+  "theme": "ルバーブの紫色と酸っぱさのひみつ",
+  "episode_id": "11",
+  "folder_name": "11_ルバーブ",
+  "drive_folder_id": "",
+  "scenes": [
+    {
+      "scene": 1,
+      "duration": 8,
+      "role": "びっくり導入",
+      "narration": "くまはかせが、むらさきいろのくきをみつけました！",
+      "dialogue": "わあ！このくき、すごくむらさきいろ！なんでだろ〜？",
+      "image_prompt": "cute pixel picture book style, for toddlers, brown bear cub Doctor Kuma / Kuma Hakase, round glasses, white lab coat, green backpack, magnifying glass, bright forest, gentle atmosphere, YouTube Shorts vertical composition, no text, no letters, no speech bubble, no watermark, Doctor Kuma looking surprised and excited at a bright purple-red rhubarb stalk growing from the ground, big round eyes, forest clearing with sunlight, colorful rhubarb plant with large green leaves and vivid purple-red stems",
+      "sound_effect": "キラキラ音、びっくり音",
+      "capcut_instruction": "ズームインからスタート。くまはかせのびっくり顔をアップで見せる。"
+    },
+    {
+      "scene": 2,
+      "duration": 10,
+      "role": "調査",
+      "narration": "くまはかせは、むらさきいろのひみつをしらべはじめました！",
+      "dialogue": "しらべてみよう！このむらさきは「アントシアニン」というものがつくるんだって！",
+      "image_prompt": "cute pixel picture book style, for toddlers, brown bear cub Doctor Kuma / Kuma Hakase, round glasses, white lab coat, green backpack, magnifying glass, bright forest, gentle atmosphere, YouTube Shorts vertical composition, no text, no letters, no speech bubble, no watermark, Doctor Kuma holding magnifying glass up to a rhubarb stalk, examining it closely with curious expression, the rhubarb glowing with a gentle purple light to show the pigment, surrounded by green forest",
+      "sound_effect": "虫メガネのきらきら音、ページをめくる音",
+      "capcut_instruction": "虫メガネのアップから引いてくまはかせ全体を見せる。"
+    },
+    {
+      "scene": 3,
+      "duration": 12,
+      "role": "やさしい解説",
+      "narration": "アントシアニンは、しょくぶつが太陽からじぶんをまもるためのまほうのいろ。そして、くきにはシュウ酸というすっぱいものがたくさん入っているよ！",
+      "dialogue": "むらさきは おひさまからまもるよろいなんだって！すっぱいのも しょくぶつのひみつなんだ〜！",
+      "image_prompt": "cute pixel picture book style, for toddlers, brown bear cub Doctor Kuma / Kuma Hakase, round glasses, white lab coat, green backpack, magnifying glass, bright forest, gentle atmosphere, YouTube Shorts vertical composition, no text, no letters, no speech bubble, no watermark, Doctor Kuma smiling gently and pointing at a rhubarb plant, showing a small sun icon and a shield above the plant to illustrate sun protection, bright and cheerful forest background, warm sunlight filtering through trees",
+      "sound_effect": "やさしいチャイム音、ほわほわ音",
+      "capcut_instruction": "ゆっくりズームアウトしながら解説。絵本のページをめくるようなトランジション。"
+    },
+    {
+      "scene": 4,
+      "duration": 10,
+      "role": "リアクション＋締め",
+      "narration": "くまはかせは、ルバーブのひみつにおどろきました！",
+      "dialogue": "むらさきのよろいで まもってて、すっぱさも ひみつだったんだね！もりには ひみつがいっぱい！",
+      "image_prompt": "cute pixel picture book style, for toddlers, brown bear cub Doctor Kuma / Kuma Hakase, round glasses, white lab coat, green backpack, magnifying glass, bright forest, gentle atmosphere, YouTube Shorts vertical composition, no text, no letters, no speech bubble, no watermark, Doctor Kuma doing a happy surprised pose with arms raised, standing next to a cheerful rhubarb plant, sparkling stars and small hearts around them, joyful bright forest scene, warm inviting colors",
+      "sound_effect": "キラキラ音、元気なファンファーレ",
+      "capcut_instruction": "くまはかせのジャンプアニメーションで締め。明るくフェードアウト。"
+    }
+  ]
+}
