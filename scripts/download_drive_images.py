@@ -1,4 +1,6 @@
 import io
+import json as _json
+import os
 import sys
 from pathlib import Path
 
@@ -35,17 +37,40 @@ def load_env():
 
 def get_drive_service():
     creds = None
-    if TOKEN_FILE.exists():
+    from_env = False
+
+    token_json = os.environ.get("GOOGLE_DRIVE_TOKEN")
+    if token_json:
+        creds = Credentials.from_authorized_user_info(
+            _json.loads(token_json), SCOPES
+        )
+        from_env = True
+    elif TOKEN_FILE.exists():
         creds = Credentials.from_authorized_user_file(str(TOKEN_FILE), SCOPES)
+
     if not creds or not creds.valid:
         if creds and creds.expired and creds.refresh_token:
             creds.refresh(Request())
+            if from_env:
+                print("トークンを自動更新しました。環境変数 GOOGLE_DRIVE_TOKEN を更新してください:")
+                print(creds.to_json())
+            else:
+                TOKEN_FILE.write_text(creds.to_json(), encoding="utf-8")
         else:
+            if not CLIENT_SECRET_FILE.exists():
+                raise FileNotFoundError(
+                    "Drive 認証ができません。以下のいずれかが必要です:\n"
+                    "  1. 環境変数 GOOGLE_DRIVE_TOKEN にトークンJSONを設定する\n"
+                    "     → PCで scripts/setup_tokens.py を実行して取得できます\n"
+                    "  2. client_secret.json を配置してブラウザ認証を行う\n"
+                    "     → スマホ・クラウド環境では動作しません"
+                )
             flow = InstalledAppFlow.from_client_secrets_file(
                 str(CLIENT_SECRET_FILE), SCOPES
             )
             creds = flow.run_local_server(port=0)
-        TOKEN_FILE.write_text(creds.to_json(), encoding="utf-8")
+            TOKEN_FILE.write_text(creds.to_json(), encoding="utf-8")
+
     return build("drive", "v3", credentials=creds)
 
 
