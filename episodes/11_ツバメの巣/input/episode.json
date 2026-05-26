@@ -1,0 +1,62 @@
+{
+  "title": "ツバメのおうち、どうやってつくるの？🪺",
+  "thumbnail_text": "ツバメのす　どうやってつくるの？",
+  "description": "クマ博士が、ツバメが泥と草でじょうずに巣を作るひみつを調べます！やさしくてかわいい、幼児向け森のいきもの動画。",
+  "hashtags": [
+    "#ツバメ",
+    "#鳥のひみつ",
+    "#クマ博士",
+    "#幼児向け",
+    "#YouTubeShorts",
+    "#森のいきもの",
+    "#おもしろ動画",
+    "#知育"
+  ],
+  "bgm_mood": "ほっこり・やさしい・春っぽい",
+  "theme": "ツバメの巣の作り方",
+  "episode_id": "11",
+  "folder_name": "11_ツバメの巣",
+  "drive_folder_id": "",
+  "scenes": [
+    {
+      "scene": 1,
+      "duration": 8,
+      "role": "びっくり導入",
+      "narration": "あれれ？たかいところに、なにかある！",
+      "dialogue": "（クマ博士）「わあ！なんだろう、あのまるいかたまり！」",
+      "image_prompt": "cute pixel picture book style, for toddlers, brown bear cub Doctor Kuma / Kuma Hakase, round glasses, white lab coat, green backpack, magnifying glass, bright forest, gentle atmosphere, YouTube Shorts vertical composition, no text, no letters, no speech bubble, no watermark, looking up at a swallow's nest on a wooden beam under a roof eave, surprised wide eyes, spring scenery, warm sunlight",
+      "sound_effect": "ふしぎな音（ぽわん）",
+      "capcut_instruction": "場面1：クマ博士がツバメの巣を見上げて驚く。ズームインで巣にフォーカス。テキスト不要。"
+    },
+    {
+      "scene": 2,
+      "duration": 10,
+      "role": "調査",
+      "narration": "ツバメが、くちばしで泥と草をはこんでいるよ！",
+      "dialogue": "（クマ博士）「しらべてみよう！ツバメさん、なにしてるの？」",
+      "image_prompt": "cute pixel picture book style, for toddlers, brown bear cub Doctor Kuma / Kuma Hakase, round glasses, white lab coat, green backpack, magnifying glass, bright forest, gentle atmosphere, YouTube Shorts vertical composition, no text, no letters, no speech bubble, no watermark, swallow bird carrying mud and grass in its beak, Doctor Kuma watching closely with magnifying glass, blue sky background, spring flowers around",
+      "sound_effect": "とりの羽ばたき音（ぱたぱた）",
+      "capcut_instruction": "場面2：ツバメが泥を運ぶ様子を横からフォーカス。クマ博士が虫メガネで観察。"
+    },
+    {
+      "scene": 3,
+      "duration": 12,
+      "role": "やさしい解説",
+      "narration": "ツバメは泥と草とつばを混ぜて、じょうずに巣をつくるんだ。たまごを守る、あったかいおうちだよ！",
+      "dialogue": "（クマ博士）「なんでだろ〜？　じつはね、ツバメさんのつばが、のりのはたらきをするんだって！」",
+      "image_prompt": "cute pixel picture book style, for toddlers, brown bear cub Doctor Kuma / Kuma Hakase, round glasses, white lab coat, green backpack, magnifying glass, bright forest, gentle atmosphere, YouTube Shorts vertical composition, no text, no letters, no speech bubble, no watermark, Doctor Kuma holding a small open book, illustration of swallow nest cross-section showing mud layers and eggs inside, warm cozy feeling, soft lighting",
+      "sound_effect": "ほっこり音（ぽろろん）",
+      "capcut_instruction": "場面3：クマ博士が本を持って解説するポーズ。巣の断面図イラストを中央に表示。やさしい雰囲気。"
+    },
+    {
+      "scene": 4,
+      "duration": 10,
+      "role": "リアクション＋締め",
+      "narration": "ツバメって、すごいね！自分でおうちをつくれるんだ。森にはひみつがいっぱい！",
+      "dialogue": "（クマ博士）「すごいなあ〜！わたしも、じぶんでおうちつくってみようかな！」",
+      "image_prompt": "cute pixel picture book style, for toddlers, brown bear cub Doctor Kuma / Kuma Hakase, round glasses, white lab coat, green backpack, magnifying glass, bright forest, gentle atmosphere, YouTube Shorts vertical composition, no text, no letters, no speech bubble, no watermark, Doctor Kuma waving goodbye with a big smile, swallow nest visible on beam above with baby swallows peeking out, cheerful spring scenery, sunlight and flowers",
+      "sound_effect": "たのしい終わりのメロディ（チャラン）",
+      "capcut_instruction": "場面4：クマ博士がにっこり手を振る。巣からヒナが顔を出す演出。明るくポップに締める。"
+    }
+  ]
+}
