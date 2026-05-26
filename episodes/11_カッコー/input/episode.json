@@ -1,0 +1,53 @@
+{
+  "title": "カッコーはなんでカッコーってなくの？",
+  "thumbnail_text": "カッコー！のひみつ",
+  "description": "もりにすむカッコーというとりは、なんで「カッコー！」とないているの？クマ博士がしらべてみたよ！",
+  "hashtags": ["#カッコー", "#とり", "#もりのいきもの", "#クマ博士", "#幼児向け", "#YouTubeShorts"],
+  "bgm_mood": "明るく好奇心あふれる、やさしいピアノとマリンバ",
+  "theme": "カッコーの鳴き声のひみつ",
+  "episode_id": "11",
+  "folder_name": "11_カッコー",
+  "drive_folder_id": "",
+  "scenes": [
+    {
+      "scene": 1,
+      "duration": 8,
+      "role": "びっくり導入",
+      "narration": "もりの中から、ふしぎな声がきこえてきたよ！",
+      "dialogue": "カッコー！カッコー！　な、なんだろう？！",
+      "image_prompt": "cute pixel picture book style, for toddlers, brown bear cub Doctor Kuma / Kuma Hakase, round glasses, white lab coat, green backpack, magnifying glass, bright forest, gentle atmosphere, YouTube Shorts vertical composition, no text, no letters, no speech bubble, no watermark, surprised expression, ears perked up, looking up at tall green trees, a small gray cuckoo bird visible in the treetops, dappled sunlight through leaves",
+      "sound_effect": "カッコー！カッコー！（鳥の鳴き声）",
+      "capcut_instruction": "カッコーの鳴き声SEを挿入。クマ博士がびっくりしてキョロキョロするアニメーション。"
+    },
+    {
+      "scene": 2,
+      "duration": 10,
+      "role": "調査",
+      "narration": "クマ博士が虫メガネでカッコーをしらべはじめたよ！",
+      "dialogue": "なんでだろ〜？　しらべてみよう！",
+      "image_prompt": "cute pixel picture book style, for toddlers, brown bear cub Doctor Kuma / Kuma Hakase, round glasses, white lab coat, green backpack, magnifying glass held up to eye, bright forest, gentle atmosphere, YouTube Shorts vertical composition, no text, no letters, no speech bubble, no watermark, focused curious expression, looking through magnifying glass toward a gray cuckoo bird perched on a branch, warm sunny forest clearing",
+      "sound_effect": "ピロロロ〜（調査中の効果音）",
+      "capcut_instruction": "虫メガネのズームインエフェクト。カッコーのアップカットに切り替え。"
+    },
+    {
+      "scene": 3,
+      "duration": 12,
+      "role": "やさしい解説",
+      "narration": "カッコーは「ぼくはここにいるよ！」って、なかまにつたえているんだって！　「カッコー」という声が、なまえになったんだよ。",
+      "dialogue": "「カッコー」は、あいさつのことばなんだね〜！",
+      "image_prompt": "cute pixel picture book style, for toddlers, brown bear cub Doctor Kuma / Kuma Hakase, round glasses, white lab coat, green backpack, magnifying glass, bright forest, gentle atmosphere, YouTube Shorts vertical composition, no text, no letters, no speech bubble, no watermark, gentle smiling expression, sitting on a mossy log, two gray cuckoo birds chirping to each other on nearby branches, soft golden light in background",
+      "sound_effect": "カッコー！（やさしい鳴き声）、ほんわかBGM",
+      "capcut_instruction": "クマ博士がうなずくアニメーション。カッコー同士が向き合うカットを挿入。テロップは使わない。"
+    },
+    {
+      "scene": 4,
+      "duration": 8,
+      "role": "リアクション＋締め",
+      "narration": "もりにはひみつがいっぱい！　またいっしょにしらべようね！",
+      "dialogue": "カッコー！って、クマ博士もいってみよ〜！　カッコー！",
+      "image_prompt": "cute pixel picture book style, for toddlers, brown bear cub Doctor Kuma / Kuma Hakase, round glasses, white lab coat, green backpack, magnifying glass, bright forest, gentle atmosphere, YouTube Shorts vertical composition, no text, no letters, no speech bubble, no watermark, happy laughing expression, arms raised in joy, cuckoo bird flying away cheerfully, sparkles and small flowers around, warm sunset forest background",
+      "sound_effect": "カッコー！（元気よく）、かわいいジングル",
+      "capcut_instruction": "クマ博士がジャンプするアニメーション。カッコーが空へ飛び立つエフェクト。明るくフェードアウト。"
+    }
+  ]
+}
