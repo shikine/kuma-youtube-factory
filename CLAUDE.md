@@ -22,9 +22,11 @@
 
 3\. input/episode.json を作成する
 
-4\. 必要なら画像生成、音声生成、動画生成、YouTubeアップロードを行う
+4\. Googleドライブに episode フォルダを作成し、drive\_folder\_id を episode.json に書き込む
 
-5\. 最後に保存先と実行コマンドと結果を報告する
+5\. 必要なら画像生成、音声生成、動画生成、YouTubeアップロードを行う
+
+6\. 最後に保存先と実行コマンドと結果を報告する
 
 
 
@@ -462,6 +464,28 @@ episodes\\XX\_テーマ名\\input\\episode.json
 
 
 
+\### 3.5. Googleドライブにフォルダを作成する
+
+episode.json 作成直後に以下を実行して、Driveにフォルダを作成し drive\_folder\_id を書き込む。
+
+
+
+py scripts\\create\_drive\_folder.py "XX\_テーマ名"
+
+
+
+\- .env に DRIVE\_PARENT\_FOLDER\_ID が設定されていれば、その親フォルダ配下に作成する
+
+\- 未設定の場合はマイドライブ直下に作成する
+
+\- drive\_rw\_token.json が存在すればブラウザ認証不要（スマホ・remote環境でも動作）
+
+\- 初回のみ PC でブラウザ認証を行い drive\_rw\_token.json を保存しておくこと
+
+\- 実行に失敗した場合はスキップして次の手順に進み、ユーザーに手動実行を案内する
+
+
+
 \### 4. 共通BGMがある場合
 
 shared\\bgm\\main\_bgm.mp3
@@ -517,6 +541,8 @@ py scripts\\run\_all.py "XX\_テーマ名"
 \- folder\_name: 04\_ホタル
 
 \- 保存先: episodes\\04\_ホタル\\input\\episode.json
+
+\- drive\_folder\_id: 1aBcDeFgHiJkLmNoPqRsTuVwXy（Driveフォルダ作成済み）
 
 \- 実行コマンド: py scripts\\run\_all.py "04\_ホタル"
 
