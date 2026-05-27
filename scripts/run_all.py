@@ -12,9 +12,10 @@ if len(sys.argv) < 2:
 episode_arg = sys.argv[1]
 
 steps = [
-    ("BGM自動取得",    "download_bgm.py"),
-    ("VOICEVOX音声生成", "generate_voice.py"),
-    ("動画生成+BGM",   "make_video.py"),
+    ("BGM自動取得",         "download_bgm.py"),
+    ("VOICEVOX音声生成",    "generate_voice.py"),
+    ("動画生成+BGM",        "make_video.py"),
+    ("Driveアップロード",   "upload_drive.py"),
 ]
 
 for label, script in steps:

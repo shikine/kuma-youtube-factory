@@ -620,3 +620,88 @@ analytics\reports\youtube\_report.md
 
 \- BGMの雰囲気
 
+
+
+\---
+
+
+
+\## Google Drive連携ルール
+
+
+
+全エピソードのアセットと動画は Google Drive に自動でアップロードする。
+
+
+
+\### 必要ファイル（ルートに配置・gitignore済み）
+
+\- client\_secret.json — Google OAuth2クライアントID
+
+\- drive\_token.json — 認証トークン（初回認証後に自動生成）
+
+
+
+\### .env の設定（オプション）
+
+DRIVE\_ROOT\_FOLDER\_ID=（DriveのルートフォルダID。省略するとマイドライブ直下に作成）
+
+DRIVE\_IMAGE\_FOLDER\_ID=（画像ダウンロード元フォルダID）
+
+
+
+\### アップロード対象
+
+1エピソードフォルダ内の以下を Drive に同期する。
+
+\- input/episode.json
+
+\- assets/images/scene1〜4.png
+
+\- assets/voices/scene1〜4.wav
+
+\- assets/bgm/main\_bgm.mp3
+
+\- output/final.mp4
+
+
+
+ファイルが未生成の場合はスキップして継続する。
+
+アップロード後、episode.json の drive\_folder\_id に DriveフォルダIDが自動保存される。
+
+
+
+\### 手動でDriveアップロードだけ実行する場合
+
+py scripts\\upload\_drive.py "XX\_テーマ名"
+
+
+
+\### run\_all.py のパイプライン（現在の順序）
+
+1\. download\_bgm.py — BGM取得
+
+2\. generate\_voice.py — 音声生成
+
+3\. make\_video.py — 動画生成
+
+4\. upload\_drive.py — Driveアップロード
+
+
+
+YouTube投稿は別途：
+
+py scripts\\upload\_youtube.py "XX\_テーマ名"
+
+
+
+\### Drive認証スコープについて
+
+drive\_service.py が drive（フルアクセス）スコープで認証を管理する。
+
+download\_drive\_images.py と upload\_drive.py は同じトークンを共有する。
+
+既存の drive\_token.json（readonly）がある場合は削除して再認証が必要。
+
+
