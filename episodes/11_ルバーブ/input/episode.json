@@ -1,0 +1,53 @@
+{
+  "title": "ルバーブはなんで紫いろなの？くきがすっぱいひみつ！",
+  "thumbnail_text": "なんで紫いろ？",
+  "description": "くま博士といっしょに、ルバーブのふしぎをしらべよう！なんで紫いろなの？どうしてすっぱいの？森の植物のひみつがいっぱい！",
+  "hashtags": ["#森のくま博士", "#ルバーブ", "#植物のふしぎ", "#幼児向け", "#YouTubeShorts", "#知育アニメ"],
+  "bgm_mood": "ふしぎでやさしい、のんびり森の朝",
+  "theme": "ルバーブはなんで紫色なの？茎は酸っぱいの？",
+  "episode_id": "11",
+  "folder_name": "11_ルバーブ",
+  "drive_folder_id": "",
+  "scenes": [
+    {
+      "scene": 1,
+      "duration": 8,
+      "role": "びっくり導入",
+      "narration": "くま博士が森のはたけで、大きな紫いろの茎を見つけた！",
+      "dialogue": "わあっ！なんだこれ〜！まっかな紫いろのくき…これはいったい、なんのしょくぶつだろう？",
+      "image_prompt": "cute pixel picture book style, for toddlers, brown bear cub Doctor Kuma / Kuma Hakase, round glasses, white lab coat, green backpack, magnifying glass, bright forest garden, looking surprised at a big purple-red rhubarb stalk growing from the ground, wide eyes, gentle atmosphere, YouTube Shorts vertical composition, no text, no letters, no speech bubble, no watermark",
+      "sound_effect": "びっくり音（ぽよん）",
+      "capcut_instruction": "シーン開始時にズームイン。くま博士の驚き顔をアップに。"
+    },
+    {
+      "scene": 2,
+      "duration": 10,
+      "role": "調査",
+      "narration": "くま博士がルバーブを虫メガネでじっくりしらべはじめた。",
+      "dialogue": "しらべてみよう！この紫いろは、アントシアニンというものがはいっているからなんだって。太陽のひかりからくきをまもっているんだよ〜！",
+      "image_prompt": "cute pixel picture book style, for toddlers, brown bear cub Doctor Kuma / Kuma Hakase, round glasses, white lab coat, green backpack, magnifying glass close to a rhubarb stalk, examining carefully, bright forest garden, rhubarb with large green leaves and purple-red stalks, gentle atmosphere, YouTube Shorts vertical composition, no text, no letters, no speech bubble, no watermark",
+      "sound_effect": "ふしぎ音（キラキラ）",
+      "capcut_instruction": "ゆっくりパン。虫メガネのアップカットを挟む。"
+    },
+    {
+      "scene": 3,
+      "duration": 10,
+      "role": "やさしい解説",
+      "narration": "くま博士がルバーブの茎をちょこっとなめてみた！",
+      "dialogue": "そしてこのくき、すっぱいんだよ〜！シュウ酸っていうものがはいっていて、レモンみたいな味なんだ。ジャムにするととってもおいしくなるんだって！",
+      "image_prompt": "cute pixel picture book style, for toddlers, brown bear cub Doctor Kuma / Kuma Hakase, round glasses, white lab coat, green backpack, making a sour face with tongue out after tasting rhubarb stalk, bright forest garden, small rhubarb plant nearby, lemons floating around as visual hint, gentle atmosphere, YouTube Shorts vertical composition, no text, no letters, no speech bubble, no watermark",
+      "sound_effect": "すっぱい音（びよ〜ん）、ジャムのぼこぼこ音",
+      "capcut_instruction": "すっぱい顔のリアクションをスローモーションで見せる。ジャムのイメージカットを追加。"
+    },
+    {
+      "scene": 4,
+      "duration": 9,
+      "role": "リアクション＋締め",
+      "narration": "くま博士がにこにこ笑顔でまとめた。",
+      "dialogue": "ルバーブの紫いろは、おひさまからまもるためのいろ。くきのすっぱさは、シュウ酸のおかげ！森にはひみつがいっぱい！またしらべにくるよ〜！",
+      "image_prompt": "cute pixel picture book style, for toddlers, brown bear cub Doctor Kuma / Kuma Hakase, round glasses, white lab coat, green backpack, magnifying glass, waving goodbye with a big smile, bright sunny forest garden, rhubarb plants in background, cheerful gentle atmosphere, YouTube Shorts vertical composition, no text, no letters, no speech bubble, no watermark",
+      "sound_effect": "ほんわかBGMアウトロ、バイバイ音",
+      "capcut_instruction": "くま博士の笑顔をアップにしてフェードアウト。森の背景をじわっとぼかす。"
+    }
+  ]
+}
