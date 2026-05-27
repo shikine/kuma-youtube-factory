@@ -1,0 +1,53 @@
+{
+  "title": "ルバーブはなんで紫いろなの？",
+  "thumbnail_text": "なんで紫？",
+  "description": "クマ博士が畑でルバーブの紫色のひみつをしらべるよ！アントシアニンってなあに？やさしく教えるよ。",
+  "hashtags": ["#クマ博士", "#ルバーブ", "#なんで紫", "#森のいきもの研究所", "#YouTubeShorts", "#幼児向け", "#知育"],
+  "bgm_mood": "ふしぎでかわいい、ほのぼのとしたピクニック風",
+  "theme": "ルバーブはなんで紫なの？",
+  "episode_id": "11",
+  "folder_name": "11_ルバーブ",
+  "drive_folder_id": "",
+  "scenes": [
+    {
+      "scene": 1,
+      "duration": 8,
+      "role": "びっくり導入",
+      "narration": "クマ博士が畑をさんぽしていると、むらさき色のくきをみつけました。",
+      "dialogue": "わあ！なんでこんなにむらさきなんだろ〜？",
+      "image_prompt": "cute pixel picture book style, for toddlers, brown bear cub Doctor Kuma / Kuma Hakase, round glasses, white lab coat, green backpack, magnifying glass, bright garden field, looking at a big purple rhubarb plant with wide surprised eyes, gentle atmosphere, YouTube Shorts vertical composition, no text, no letters, no speech bubble, no watermark",
+      "sound_effect": "ふしぎな発見音（ポロロン）",
+      "capcut_instruction": "クマ博士がルバーブを見つけてびっくりするシーン。ズームインでルバーブの紫を強調。"
+    },
+    {
+      "scene": 2,
+      "duration": 10,
+      "role": "調査",
+      "narration": "クマ博士は虫メガネでルバーブのくきをよーくしらべました。",
+      "dialogue": "しらべてみよう！なんでむらさきいろになるのかな？",
+      "image_prompt": "cute pixel picture book style, for toddlers, brown bear cub Doctor Kuma / Kuma Hakase, round glasses, white lab coat, green backpack, holding magnifying glass up close to a rhubarb stalk, examining it carefully, bright garden background, curious expression, gentle atmosphere, YouTube Shorts vertical composition, no text, no letters, no speech bubble, no watermark",
+      "sound_effect": "しらべる音（チリリリ）",
+      "capcut_instruction": "虫メガネのアップ。ルバーブのくきの紫色をクローズアップしてから引いてクマ博士全体を映す。"
+    },
+    {
+      "scene": 3,
+      "duration": 12,
+      "role": "やさしい解説",
+      "narration": "ルバーブの紫色は「アントシアニン」というものが入っているからです。アントシアニンは、つよいひかりや寒さからルバーブをまもってくれる、しぜんのよろいなんだよ。",
+      "dialogue": "むらさき色は、ルバーブのつよさのいろだったんだね！",
+      "image_prompt": "cute pixel picture book style, for toddlers, brown bear cub Doctor Kuma / Kuma Hakase, round glasses, white lab coat, green backpack, magnifying glass, standing next to a large rhubarb plant, gentle smile, soft sunlight in a bright garden, gentle atmosphere, YouTube Shorts vertical composition, no text, no letters, no speech bubble, no watermark",
+      "sound_effect": "やさしいきらきら音（キラキラ〜）",
+      "capcut_instruction": "クマ博士がうなずきながら解説するシーン。ルバーブと一緒に映す。やわらかいライトエフェクトを追加。"
+    },
+    {
+      "scene": 4,
+      "duration": 8,
+      "role": "リアクション＋締め",
+      "narration": "むらさきのいろには、ちゃんとわけがあったんだね。",
+      "dialogue": "むずかしいなまえだけど、むらさきのよろいってかんがえたらかわいいね！森にはひみつがいっぱい！",
+      "image_prompt": "cute pixel picture book style, for toddlers, brown bear cub Doctor Kuma / Kuma Hakase, round glasses, white lab coat, green backpack, magnifying glass, waving happily next to a colorful rhubarb plant, big smile, bright garden, cheerful atmosphere, YouTube Shorts vertical composition, no text, no letters, no speech bubble, no watermark",
+      "sound_effect": "ハッピーエンド音（タッタッタン♪）",
+      "capcut_instruction": "クマ博士が元気よく手を振るシーン。明るく終わる。フェードアウト。"
+    }
+  ]
+}
